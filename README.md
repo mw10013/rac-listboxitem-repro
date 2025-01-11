@@ -1,28 +1,3 @@
-- Do not use `tailwindcss-react-aria-components` (https://react-spectrum.adobe.com/react-aria/styling.html#plugin) so we don't have that dependency.
-
-- https://ui.shadcn.com/r
-- https://ui.shadcn.com/r/styles/new-york/button.json
-- https://shadcn.batchtool.com/components
-- https://dev.to/bytefer/10-component-libraries-you-must-know-to-use-shadcn-ui-3ma1
-
-- VSCode 1.91 breaks code actions: https://github.com/tailwindlabs/tailwindcss-intellisense/issues/1018
-
-## TODO
-
-- textarea
-- alert
-- breadcrumb
-- label: error (className={cn(error && "text-destructive", className)})
-- Group (FiledGroup)
-- checkbox: interminate, invalid, readonly, description, revisit span/label text
-- checkboxgroup
-
-## Prompts
-
-```
-Delete all imports from 'react-aria-components' and replace with`import * as Rac from 'react-aria-components'`. Then patch up the affected objects and types to use the namespace Rac. For example, DialogProps would become Rac.DialogProps.
-```
-
 # Welcome to React Router!
 
 A modern, production-ready template for building full-stack React applications using React Router.
